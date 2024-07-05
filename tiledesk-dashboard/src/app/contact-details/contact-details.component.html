@@ -584,8 +584,8 @@
                 <button id="btn-chat-with" type="button" class="btn btn-primary btn-simple btn-xs pull-left"
                   (click)="chatWithAgent(contact)">
                   <i class="material-icons"
-                    style="font-size:14px; position: relative;top:0px; color:#0f62ff !important">chat</i>
-                  <span class="chat-with-text" style="color:#0f62ff !important"> {{ "ChatWith" | translate }} </span>
+                    style="font-size:14px; position: relative;top:0px; color:#04444E !important">chat</i>
+                  <span class="chat-with-text" style="color:#04444E !important"> {{ "ChatWith" | translate }} </span>
                 </button>
                 <span class="chat-with-fullname"> {{ contact_details?.fullname }}</span>
               </div> -->
@@ -603,7 +603,7 @@
                     <path
                       d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 4.99L4 6h16zm0 12H4V8l8 5 8-5v10z" />
                   </svg>
-                  <a style="font-size: 14px; color: #0f62ff !important;font-weight: 400;" target="_blank"
+                  <a style="font-size: 14px; color: #04444E !important;font-weight: 400;" target="_blank"
                     *ngIf="contact_details?.email" href="mailto:{{contact_details?.email}}">
                     {{ contact_details?.email }}
                   </a>

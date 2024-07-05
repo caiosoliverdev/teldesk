@@ -115,13 +115,13 @@ export class TemplatesComponent extends PricingBaseComponent implements OnInit {
     const currentUrlLastSegment = currentUrl.substring(currentUrl.lastIndexOf('/') + 1);
     this.logger.log('[BOTS-TEMPLATES] - current URL last segment ',  currentUrlLastSegment);
     if (currentUrlLastSegment === 'all') {
-      this.pageTitle = "All templates"
+      this.pageTitle = "Todos modelos"
     } else if (currentUrlLastSegment === 'community') {
-      this.pageTitle = "Community templates"
+      this.pageTitle = "Modelos da comunidade"
     } else if (currentUrlLastSegment === 'increase-sales') {
-      this.pageTitle = "Increase sales templates "
+      this.pageTitle = "Aumente os modelos de vendas "
     } else if (currentUrlLastSegment === 'customer-satisfaction') {
-      this.pageTitle = "Customer Satisfaction templates "
+      this.pageTitle = "Modelos de satisfação do cliente "
     }
   }
 

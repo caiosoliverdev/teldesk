@@ -19,14 +19,14 @@
      --card-deep-elevation: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 0 12px 17px 2px rgba(0, 0, 0, 0.14), 0 5px 22px 4px rgba(0, 0, 0, 0.12);
      --icon-color: #8796af;
      --light-periwinkle: #5b72a7;
-     --blue-turquoise: #2196f3;
-     --blue-light: #3ea9f5;
-     --vivid-blue:#0d8aee;
+     --blue-turquoise: #059f2d;
+     --blue-light: #059f2d;
+     --vivid-blue:#059f2d;
      --opal-violet: #7c8eb9;
      --indigo: #6883d0;
      --indigo-deep: #5b5dbc;
      --light-gray: #eee;
-     --icon-hover-color: rgb(5, 102, 255);
+     --icon-hover-color: rgb(32, 103, 2);
      --text-color: #1e293b;
      --secondary-text-color: #64748b;
      --title--header-font-size: 24px;
@@ -98,7 +98,7 @@
      --contact-tag-color: rgb(100, 116, 145);
      --conv-details-contact-fullname-color: #080f1a;
      --conv-details-contact-fullname-row-hover: rgb(226, 232, 239);
-     --conv-details-contact-location-color: #03a5e8;
+     --conv-details-contact-location-color: #13ad1d;
      --active-tab-text-color: rgb(8, 15, 26);
      --conv-details-edit-contact-fullname-form-background-color: #fff;
      --error-color: var(--red-color);
@@ -109,7 +109,7 @@
      --dark-background: #2d323e;
      --conv-details-help-tooltip-color: #7695a5;
      --tab-text-color: rgb(100, 116, 145);
-     --accent-text-color: #3ea9f5;
+     --accent-text-color: #037c0d;
      --list-wrapper-border-radius: 4px;
      --list-wrapper-padding: 10px 0px 10px;
      --list-wrapper-margin-top: 12px !important;
@@ -134,7 +134,7 @@
      --list-item-input-row-hover-border-radius: 4px;
      --list-item-action-btns-height: 30px;
      --list-item-action-btns-width: 30px;
-     --list-item-input-focus-background-image: linear-gradient(#3ea9f5, #3ea9f5), linear-gradient(#d2d2d2, #d2d2d2) !important;
+     --list-item-input-focus-background-image: linear-gradient(#41f53e, #3ef559), linear-gradient(#d2d2d2, #d2d2d2) !important;
      --list-item-input-focus-cursor: text;
      --conv-details-rating-star-color: #eee;
      --conv-details-rating-active-star-color: rgb(252, 217, 58);
@@ -173,7 +173,7 @@
      --contact-tag-letter-spacing: -0.01em;
      --delete-tag-icon-color: rgb(100, 116, 145);
      --delete-tag-btn-hover: rgb(248, 166, 178);
-     --manage-tag-font-color: #03a5e8;
+     --manage-tag-font-color: #019e0e;
      --manage-tag-font-size: 12px;
      --manage-tag-font-weight: 400;
      --manage-tag-margin-top: 12px;
@@ -196,7 +196,7 @@
      --conv-details-edit-contact-fullname-form-done-btn-color: rgb(5, 102, 255);
      --conv-details-edit-contact-fullname-form-done-btn-background-color: rgb(255, 255, 255);
      --conv-details-edit-contact-fullname-form-done-btn-border-top: 1px solid rgb(211, 219, 229);
-     --conv-details-contact-location-hover-color: #03a5e8;
+     --conv-details-contact-location-hover-color: #03e844;
      --conv-details-served-by-avatar-img-border: 1px solid #dfe1e6;
      --conv-details-served-by-avatar-no-img-border: 2px solid rgb(239, 242, 246);
      --conv-details-served-by-avatar-no-img-color: #fff;
@@ -305,7 +305,7 @@
      --list-item-input-row-hover-border-radius: 4px;
      --list-item-action-btns-height: 30px;
      --list-item-action-btns-width: 30px;
-     --list-item-input-focus-background-image: linear-gradient(#3ea9f5, #3ea9f5), linear-gradient(#d2d2d2, #d2d2d2) !important;
+     --list-item-input-focus-background-image: linear-gradient(#63f53e, #3ef553), linear-gradient(#d2d2d2, #d2d2d2) !important;
      --list-item-input-focus-cursor: text;
      --conv-details-rating-star-color: #eee;
      --conv-details-rating-active-star-color: rgb(252, 217, 58);

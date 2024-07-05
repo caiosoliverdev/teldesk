@@ -42,15 +42,15 @@ export enum INTEGRATIONS_CATEGORIES {
 }
 
 export const CATEGORIES_LIST = [
-    { type: INTEGRATIONS_CATEGORIES.AI, name: "Artificial Intelligence" },
-    { type: INTEGRATIONS_CATEGORIES.CHANNEL, name: "Channels" },
+    // { type: INTEGRATIONS_CATEGORIES.AI, name: "Artificial Intelligence" },
+    { type: INTEGRATIONS_CATEGORIES.CHANNEL, name: "Canais" },
     //{ type: INTEGRATIONS_CATEGORIES.AUTOMATION, name: "Automation" },
     //{ type: INTEGRATIONS_CATEGORIES.COMMUNICATION, name: "Communication" },
-    { type: INTEGRATIONS_CATEGORIES.CRM, name: "CRM" },
+    // { type: INTEGRATIONS_CATEGORIES.CRM, name: "CRM" },
     //{ type: INTEGRATIONS_CATEGORIES.STORAGE, name: "Data/File Storage" },
-    { type: INTEGRATIONS_CATEGORIES.ECOMMERCE, name: "E-Commerce" },
+    // { type: INTEGRATIONS_CATEGORIES.ECOMMERCE, name: "E-Commerce" },
     //{ type: INTEGRATIONS_CATEGORIES.EMAIL, name: "Email Marketing" },
-    { type: INTEGRATIONS_CATEGORIES.INT_PLAT, name: "Integration Platform" },
+    // { type: INTEGRATIONS_CATEGORIES.INT_PLAT, name: "Integration Platform" },
     //{ type: INTEGRATIONS_CATEGORIES.LIVE_CHAT, name: "Live Chat Support" },
     //{ type: INTEGRATIONS_CATEGORIES.OTHER, name: "Other" },
 

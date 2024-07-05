@@ -2,18 +2,18 @@
     <div class="home-block-header-wpr">
         <div class="home-block-header">
             <div class="home-block-title"  *ngIf="displayInviteTeammateBtn">
-                <span *ngIf="USER_ROLE !=='agent' && countOfInvitedTeammates === 0">Invite Teammates </span>
+                <span *ngIf="USER_ROLE !=='agent' && countOfInvitedTeammates === 0">Convide colegas de equipe </span>
                 <span *ngIf="USER_ROLE !=='agent' && countOfInvitedTeammates === 1">
-                    Kudos! You've invited {{countOfInvitedTeammates}} teammate. Keep striving for greatness!
+                    Parabéns! Você convidou um {{countOfInvitedTeammates}} companheiro de equipe. Continue lutando pela grandeza!
                 </span>
                 <span *ngIf="USER_ROLE !=='agent' && countOfInvitedTeammates > 1">
-                    Kudos! You've invited {{countOfInvitedTeammates}} teammates. Keep striving for greatness!
+                    Parabéns! Você convidou um {{countOfInvitedTeammates}} companheiros de equipe. Continue lutando pela grandeza!
                 </span>
-                <span *ngIf="USER_ROLE ==='agent'">Teammates </span>
+                <span *ngIf="USER_ROLE ==='agent'">Companheiros de equipe </span>
             </div>
 
             <div class="home-block-title"  *ngIf="!displayInviteTeammateBtn">
-                Teammates
+                Companheiros de equipe
             </div>
 
         </div>

@@ -38,7 +38,7 @@
 <div class="main-content" style="padding-top:0px; padding-left: 5px;padding-right: 5px;">
   <div class="page-title--sidebar-settings"
 	[ngClass]="{'page-title--sidebar-settings_opened':IS_OPEN_SETTINGS_SIDEBAR, 'page-title--sidebar-settings_closed':!IS_OPEN_SETTINGS_SIDEBAR }">
-    My Chatbots
+  Meus chatbots
 	</div>
   <div class="container-fluid" style="padding-left: 5px;padding-right: 5px;">
 
@@ -65,11 +65,11 @@
           <div class="col-xs-12">
             <button class="btn btn-new btn-size-m btn--primary pull-right" (click)="createBlankTilebot()"
               style="margin-right: 20px; box-shadow: unset;">
-              Create from scratch
+              Crie do zero
             </button>
             <button class="btn btn-new btn-size-m btn--primary pull-right" (click)="goToBotAllTemplates()"
               style="margin-right: 16px;box-shadow: unset;">
-              Add from template
+              Adicionar do modelo
             </button>
           </div>
         </div>
@@ -96,30 +96,30 @@
                   </div> 
 
                   <div class="page--actions" *ngIf="faqkbList && faqkbList?.length > 0">
-                    <span class="order-by-label">Order by </span>
+                    <span class="order-by-label">Ordenar por </span>
 
                     <div class="dropdown" (click)="isOpenDropdown(isOpen = !isOpen)">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <span class="order-by-selected-value" *ngIf="orderBylastUpdated">Last updates </span>
-                        <span class="order-by-selected-value" *ngIf="orderByCreationDate">Creation date </span>
-                        <span class="order-by-selected-value" *ngIf="orderByChatbotName">Name </span>
+                        <span class="order-by-selected-value" *ngIf="orderBylastUpdated">Últimas atualizações </span>
+                        <span class="order-by-selected-value" *ngIf="orderByCreationDate">Data de criação </span>
+                        <span class="order-by-selected-value" *ngIf="orderByChatbotName">Nome </span>
                         <span class="caret dropdown-caret"
                           [ngClass]="{'caret-rotate-0': is0penDropDown === false, 'caret-rotate-180': is0penDropDown === true}"></span>
                       </a>
                       <ul class="dropdown-menu" style="left: -53px;">
                         <li>
                           <a (click)="orderBy('lastUpdates')">
-                            Last updates
+                            Últimas atualizações
                           </a>
                         </li>
                         <li>
                           <a (click)="orderBy('creationDate')">
-                            Creation date
+                            Data de criação
                           </a>
                         </li>
                         <li>
                           <a (click)="orderBy('botname')">
-                            Name
+                            Nome
                           </a>
                         </li>
                       </ul>
@@ -136,11 +136,11 @@
                       {{ 'BotsPage.NoBot' | translate }} -->
 
                     <span style="display: block;">
-                      You don't have Chatbots.
+                      Você não tem chatbots.
                     </span>
                     <span style="display: block;">
-                      Get you started with a <span class="btn---link" (click)="goToBotAllTemplates()"> chatbot
-                        template </span> or create a new one from scratch
+                      Comece com um <span class="btn---link" (click)="goToBotAllTemplates()"> bot de bate-papo
+                        modelo </span> ou crie um novo do zero
                     </span>
                     <span style="display: block;">
                       <!-- <span class="btn---link" (click)="createBlankTilebot()"> create a new one from scratch
@@ -148,7 +148,7 @@
 
                       <button class="btn btn-new btn-size-m btn--primary center" (click)="createBlankTilebot()"
                         style="margin-right: 20px; box-shadow: unset;">
-                        Create from scratch
+                        Crie do zero
                       </button>
                     </span>
                   </p>
@@ -255,7 +255,7 @@
                           <div *ngIf="isVisibleAnalytics" class="cl-card-item-stats">
                             <div class="cl-card-item-stats-title">
                               <!-- {{ "BotsAddEditPage.Messages" | translate }} -->
-                              Messages
+                              Mensagens
                             </div>
                             <div class="cl-card-item-stats-values">
                               {{ faqkb?.message_count}}
@@ -299,7 +299,7 @@
                                   mat-menu-item
                                   (click)='shareWithLink(faqkb._id, faqkb?.name)'>
                                   <mat-icon>link</mat-icon>
-                                  <span>Share with link</span>
+                                  <span>Compartilhe com link</span>
                                 </button>
 
                                 <button class="mat-menu-btn"
@@ -307,7 +307,7 @@
                                    (click)='exportChatbotToJSON(faqkb)'>
                                   <mat-icon>file_download</mat-icon>
 
-                                  <span>Export</span>
+                                  <span>Exportar</span>
                                 </button>
                                 <!-- <button *ngIf="!faqkb?.is_system_identity_bot" mat-menu-item 
                                 (click)='openDeleteModal(faqkb?._id, faqkb?.name, faqkb?.has_faq, faqkb?.type)'>
@@ -341,7 +341,7 @@
                                   mat-menu-item
                                   (click)="openTestSiteInPopupWindow(faqkb?._id)">
                                   <mat-icon>visibility</mat-icon>
-                                  <span>Test it out</span>
+                                  <span>Teste</span>
                                 </button>
 
                                 <button class="mat-menu-btn" 
@@ -349,14 +349,14 @@
                                   (click)='duplicateChatbot(faqkb?._id,  faqkb?.name)'>
                                   <mat-icon>content_copy</mat-icon>
                                   <!-- <span>{{ 'Duplicate' | translate }}</span> -->
-                                  <span>Duplicate</span>
+                                  <span>Duplicar</span>
                                 </button>
                                 <button class="mat-menu-btn" *ngIf="!faqkb?.is_system_identity_bot" 
                                   mat-menu-item
                                   (click)='openDeleteModal(faqkb?._id, faqkb?.name, faqkb?.has_faq, faqkb?.type)'>
                                   <mat-icon>delete</mat-icon>
                                   <!-- <span>{{ 'BotsPage.tooltipDeleteBot' | translate }}</span> -->
-                                  <span>Delete</span>
+                                  <span>Deletar</span>
                                 </button>
                               </mat-menu>
 

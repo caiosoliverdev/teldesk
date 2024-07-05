@@ -188,7 +188,7 @@
                   <button mat-menu-item (click)="$event.stopPropagation()">
                     <mat-checkbox class="home-settings-checkbox" [checked]="displayAnalyticsConvsGraph"
                       (change)="switchAnalyticsConvsGraph($event.checked)"></mat-checkbox>
-                    <span>Conversations chart</span>
+                    <span>Gráfico de conversas</span>
                   </button>
                   <!-- *ngIf="displayAnalyticsIndicators" -->
                   <!-- *ngIf="isVisibleANA" -->
@@ -197,7 +197,7 @@
                       (change)="switchAnalyticsIndicators($event.checked)">
                     </mat-checkbox>
 
-                    <span>Analytics Overview</span>
+                    <span>Visão geral do Analytics</span>
                   </button>
 
                   <!-- --------------------- -->
@@ -237,7 +237,7 @@
                   <button *ngIf="displayNewsAndDocumentation" mat-menu-item (click)="$event.stopPropagation()">
                     <mat-checkbox class="home-settings-checkbox" [checked]="displayNewsFeed"
                       (change)="switchNewsFeed($event.checked)"></mat-checkbox>
-                    <span>News Feed</span>
+                    <span>Notícias</span>
                   </button>
                 </mat-menu>
               </div>
