@@ -179,7 +179,7 @@
     <div class="ct-home-block-description-and-menu-btn-wpr">
 
         <div *ngIf="USER_ROLE !== 'agent' && displayInviteTeammateBtn === true" class="home-block-description" style="padding-right: 55px;">
-            Bring your team on board for collaborative automation and customer interactions
+            Traga sua equipe para automação colaborativa e interações com clientes
         </div>
 
         <div *ngIf="USER_ROLE !== 'agent' && areActivePay" class="temmates-redeemed">
@@ -191,12 +191,12 @@
                 matTooltipHideDelay="100" 
                 (click)="goToTeammates()"
                 [ngStyle]="{'color': countOfPendingInvites + projectUsersLength > seatsLimit ? '#f44336' : '#3ea9f5'}">
-                    {{countOfPendingInvites + projectUsersLength}} seats redeemed
+                    {{countOfPendingInvites + projectUsersLength}} assentos resgatados
                 <span class="pending--invitation" *ngIf="countOfPendingInvites > 0">
-                    ({{ countOfPendingInvites }} pending )
+                    ({{ countOfPendingInvites }} pendente )
                 </span>
             </span>
-           <span *ngIf="areActivePay"> of {{ seatsLimit }} available for the {{prjct_profile_name}}. </span> 
+           <span *ngIf="areActivePay"> of {{ seatsLimit }} disponível para o {{prjct_profile_name}}. </span> 
           
            <div *ngIf="(!subscription_is_active && prjct_profile_type === 'payment') && (countOfPendingInvites + projectUsersLength > seatsLimit)"
                     matTooltipClass="h-custom-mat-tooltip"
@@ -261,7 +261,7 @@
                 <span class="mat-button-wrapper">
 
                     <span class="ml-2" style="font-size: 15px;">
-                        Invite teammate
+                        Convidar colega de equipe
                     </span>
 
                 </span>

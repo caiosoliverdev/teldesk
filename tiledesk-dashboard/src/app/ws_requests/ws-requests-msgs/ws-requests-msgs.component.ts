@@ -2744,7 +2744,7 @@ export class WsRequestsMsgsComponent extends WsSharedComponent implements OnInit
       }
       this.getTagContainerElementHeight()
 
-      self.tag_selected_color = '#f0806f'
+      self.tag_selected_color = '#059f2d'
 
       self.tagsService.createTag(newTag, this.tag_selected_color)
         .subscribe((tag: any) => {

@@ -93,12 +93,12 @@ export class BrandService {
       BASE_LOGO_NO_TEXT: "assets/img/logos/tiledesk_logo_no_text.png",
       COMPANY_NAME: "SyncYou",
       BRAND_NAME: "SyncYou",
-      COMPANY_SITE_NAME: "tiledesk.com",
-      COMPANY_SITE_URL: "https://www.tiledesk.com",
-      CONTACT_US_EMAIL: "support@tiledesk.com",
-      CONTACT_SALES_EMAIL: "sales@tiledesk.com",
-      BRAND_PRIMARY_COLOR: "#f0806f",
-      BRAND_SECONDARY_COLOR: "#f0806f",
+      COMPANY_SITE_NAME: "syncyou.com.br",
+      COMPANY_SITE_URL: "https://syncyou.com.br",
+      CONTACT_US_EMAIL: "contato@syncyou.com.br",
+      CONTACT_SALES_EMAIL: "contato@syncyou.com.br",
+      BRAND_PRIMARY_COLOR: "#059f2d",
+      BRAND_SECONDARY_COLOR: "#059f2d",
       DOCS: true,
       LOGOUT_ENABLED: true
     }
