@@ -374,7 +374,7 @@ export const featuresPlanC = [
     'Dialogflow connector',
     'Rasa connector',
     'SMTP Settings',
-    'Support to host Tiledesk on your Infrastructure',
+    'Support to host SyncYou on your Infrastructure',
     'Premium Customer Support',
 ]
 
@@ -510,7 +510,7 @@ export const featuresPlanF = [
     'Connector with 3rd party AI',
     'Automations Log',
     'SMTP Settings',
-    'Support to host Tiledesk on your Infrastructure',
+    'Support to host SyncYou on your Infrastructure',
     'Premium Customer Support',
 ]
   

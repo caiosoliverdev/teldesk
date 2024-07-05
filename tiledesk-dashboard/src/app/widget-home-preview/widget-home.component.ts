@@ -58,7 +58,7 @@ export class WidgetHomeComponent implements OnInit, OnChanges {
   public widgetLogoURL: any;
 
   public defaultFooter: string;
-  // = '<a tabindex="-1" target="_blank" href="http://www.tiledesk.com/?utm_source=widget"><img src="https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg"/><span>Powered by Tiledesk</span></a>'
+  // = '<a tabindex="-1" target="_blank" href="http://www.tiledesk.com/?utm_source=widget"><img src="https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg"/><span>Powered by SyncYou</span></a>'
 
 
   constructor(

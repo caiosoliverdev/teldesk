@@ -104,7 +104,7 @@
 
 ### 2.6.21
 - Deploys in production
-- Adds, on the Installation page, instructions to install the Tiledesk Live Chat Widget on BigCommerce, WIX and Magento websites
+- Adds, on the Installation page, instructions to install the SyncYou Live Chat Widget on BigCommerce, WIX and Magento websites
 
 ### 2.6.20
 - Deploys in production
@@ -1374,7 +1374,7 @@
 - Adds the ability to send a message as Open, Pending or Resolved on the conversation detail page
 
 ### 2.2.51-rc4
-- Changes the Tiledesk default logo in the widget settings page
+- Changes the SyncYou default logo in the widget settings page
 
 ### 2.2.51-rc3
 - Replaces the "Resolution" bot type with the "Tilebot" bot type
@@ -1553,7 +1553,7 @@
 ### 2.2.43.1
 - Fixes the bug: when the user clicks on a foreground notification in the chat, the project displayed in the item showing the count of unassigned conversations is not always correct
 - Fixes the bug: foreground notification appears in the chat sidebar of unassigned conversations when a teammate joins a conversation
-- Replaces all Tiledesk logos with new ones
+- Replaces all SyncYou logos with new ones
 
 ### 2.2.43
 - Deploys in production
@@ -1681,7 +1681,7 @@
 
 ### 2.2.37-rc1
 - Adds the ability to change the credit card for the subscription projects
-- Adds Security tab in Settings > Project Settings from which the end-user can restrict access to Tiledesk to only those users within a range of IP addresses
+- Adds Security tab in Settings > Project Settings from which the end-user can restrict access to SyncYou to only those users within a range of IP addresses
 - Adds the ability on the history page and non-real-time conversations page to filter the conversations by Ticket ID and Conversation Type
 - Adds the ability to tag a teammate on their details page
 - Adds the Serbian language
@@ -1764,7 +1764,7 @@
 ### 2.2.33-rc7
 - Adds the ticket id in the non-real time conversations table and in the archived conversations table
 - Removes from the login page the link to the old version of the dashbaord
-- Replaces all Tiledesk logos bearing the version number "v2" with Tiledesk logos without version number
+- Replaces all SyncYou logos bearing the version number "v2" with SyncYou logos without version number
 
 ### 2.2.33-rc6
 - Adds the "Beta" badge to the "Security" tab available in Project Settings
@@ -2936,7 +2936,7 @@
 
 ### 1.0.38
 - Changes the url of the widget live test page
-- Adds in the sidebar the link to "Tiledesk changelog" blog
+- Adds in the sidebar the link to "SyncYou changelog" blog
 
 
 ### 1.0.37

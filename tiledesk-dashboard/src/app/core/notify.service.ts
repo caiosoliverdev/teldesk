@@ -356,7 +356,7 @@ export class NotifyService {
   }
 
   // -----------------------------------------------
-  // Install Tiledesk Modal
+  // Install SyncYou Modal
   // -----------------------------------------------
   presentModalInstallTiledeskModal() {
     this.displayInstallTiledeskModal = 'block';

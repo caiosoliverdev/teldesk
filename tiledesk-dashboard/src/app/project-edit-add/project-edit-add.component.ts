@@ -2561,7 +2561,7 @@ export class ProjectEditAddComponent implements OnInit, OnDestroy {
     if (this.ip_restrictions_on && allowedIPsArray.length > 0) {
       swal({
         title: "Are you sure?",
-        text: "Adding IP-based access restrictions can break Tiledesk access!",
+        text: "Adding IP-based access restrictions can break SyncYou access!",
         icon: "warning",
         buttons: true,
         dangerMode: true,

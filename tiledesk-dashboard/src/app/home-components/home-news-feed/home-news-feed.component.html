@@ -1,32 +1,23 @@
 <div class="home-news-feed" style="margin-top: 18px;">
-    <div class="home-news-feed-title">
+    <!-- <div class="home-news-feed-title">
         News and documentation
     </div>
     <div class="home-news-feed-subtitle">
-        <!-- {{'HereIsAListOfPagesAndLinks' | translate}} -->
         Here’s a list of pages we highly recommend going over before you start having conversations
     </div>
     <div id="feed-carousel-wpr" class="news-wrapper">
-        <!-- *ngIf="displayScrollLeftBtn"   [ngStyle]="{'opacity':displayScrollLeftBtn === false ? '0' : '1' }" -->
         <i id="left" class="material-icons" [ngStyle]="{'opacity':displayScrollLeftBtn === false ? '0' : '1' }">
             navigate_before
         </i>
         <ul id="feed-carousel" class="news-feed-carousel" #scrollableElement>
-            <!--   -->
             <li class="news-card" [ngClass]="{'highlighted-card': news?.highlighted }" 
                 style="position: relative;"  *ngFor="let news of newsFeedList" 
                 (click)="openNews(news?.learnmore, news?.type)">
-                
-                <!-- <div class="box"> -->
-                    <!-- <div class="ribbon ribbon-top-right">
-                        <span>ribbon</span>
-                    </div> -->
-                <!-- </div> -->
+               
 
                 <div class="card-image" *ngIf="news?.image" class="img" style="position: relative;">
                     <img [src]="news?.image" alt="img" draggable="false">
 
-                    <!-- YouTube button  -->
                     <div *ngIf="news?.type === 'video'" class="ytb">
                         <svg height="100%" version="1.1" viewBox="0 0 68 48" width="40px" style="position: absolute;left: 117px;bottom: 0;">
                             <path class="ytp-large-play-button-bg"
@@ -37,14 +28,10 @@
                     </div>
                 </div>
                 <div  *ngIf="!news?.image" class="img card-noimage" style="position: relative;" [ngStyle]="{ 'background': news?.background }">
-                    <!-- <img src="https://tiledesk.com/wp-content/uploads/2022/08/tiledesk_v13.png" alt="img" draggable="false">   -->
                    
-                    <!-- [ngStyle]="{ 'background': linear-gradient(135deg, rgb(206, 159, 252) 0%, rgb(115, 103, 240) 100%) }" -->
-                    <!-- <div class="news-description-wpr"> -->
                         <div class="news-description">
                            {{ news?.description }} 
                         </div>
-                    <!-- </div> -->
                     
                 </div>
                 <div class="news-tag">
@@ -74,10 +61,7 @@
                             </g>
                         </svg>
                     </span>
-                    <!-- <div class="news-tag-name">
-                        {{news?.tag}}
     
-                    </div> -->
                     <svg style="position: absolute;top: -26px; left: 0px" height="30" viewBox="0 0 137 30" width="137"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -111,12 +95,10 @@
             </li>
 
         </ul>
-        <!-- <i class="fa-solid fa-angle-right"></i> -->
-        <!-- [ngStyle]="{'opacity':displayScrollLeftBtn === false ? '0' : '1' }" -->
-        <!-- style="opacity: 0;" -->
+      
         <i id="right" class="material-icons" [ngStyle]="{'opacity':displayScrollRightBtn === false ? '0' : '1' }">
             keyboard_arrow_right
         </i>
-    </div>
+    </div> -->
 
 </div>

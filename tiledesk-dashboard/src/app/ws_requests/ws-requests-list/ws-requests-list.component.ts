@@ -301,13 +301,13 @@ export class WsRequestsListComponent extends WsSharedComponent implements OnInit
 
   openChat() {
     // const url = this.CHAT_BASE_URL;
-    // this.openWindow('Tiledesk - Open Source Live Chat', url)
-    // this.focusWin('Tiledesk - Open Source Live Chat')
+    // this.openWindow('SyncYou - Open Source Live Chat', url)
+    // this.focusWin('SyncYou - Open Source Live Chat')
     // --- new 
     localStorage.setItem('last_project', JSON.stringify(this.current_selected_prjct))
     let baseUrl = this.CHAT_BASE_URL + '#/conversation-detail/'
     let url = baseUrl
-    const myWindow = window.open(url, '_self', 'Tiledesk - Open Source Live Chat');
+    const myWindow = window.open(url, '_self', 'SyncYou - Open Source Live Chat');
     myWindow.focus();
   }
 

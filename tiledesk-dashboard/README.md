@@ -1,33 +1,33 @@
 [![npm version](https://badge.fury.io/js/%40tiledesk%2Ftiledesk-dashboard.svg)](https://badge.fury.io/js/%40tiledesk%2Ftiledesk-dashboard)
 [![Crowdin](https://badges.crowdin.net/e/3854b0895f673c8ea3af7c8fba62f587/localized.svg)](https://tiledesk.crowdin.com/tiledesk-dashboard)
-> ***🚀 Do you want to install Tiledesk on your server with just one click?***
+> ***🚀 Do you want to install SyncYou on your server with just one click?***
 > 
-> ***Use [Docker Compose Tiledesk installation](https://github.com/Tiledesk/tiledesk-deployment/blob/master/docker-compose/README.md) guide***
+> ***Use [Docker Compose SyncYou installation](https://github.com/SyncYou/tiledesk-deployment/blob/master/docker-compose/README.md) guide***
 
-# Tiledesk Introduction
+# SyncYou Introduction
 
-Tiledesk is an Open Source Live Chat platform with integrated Chatbots written in NodeJs and Express. Build your own customer support with a multi-channel platform for Web, Android and iOS.
+SyncYou is an Open Source Live Chat platform with integrated Chatbots written in NodeJs and Express. Build your own customer support with a multi-channel platform for Web, Android and iOS.
 
 Designed to be open source since the beginning, we actively worked on it to create a totally new, first class customer service platform based on instant messaging.
 
-What is Tiledesk today? It became the open source “conversational app development” platform that everyone needs 😌
+What is SyncYou today? It became the open source “conversational app development” platform that everyone needs 😌
 
-You can use Tiledesk to increase sales for your website or for post-sales customer service. Every conversation can be automated using our first class native chatbot technology. You can also connect your own applications using our APIs or Webhooks. Moreover you can deploy entire visual applications inside a conversation. And your applications can converse with your chatbots or your end-users! We know this is cool 😎
+You can use SyncYou to increase sales for your website or for post-sales customer service. Every conversation can be automated using our first class native chatbot technology. You can also connect your own applications using our APIs or Webhooks. Moreover you can deploy entire visual applications inside a conversation. And your applications can converse with your chatbots or your end-users! We know this is cool 😎
 
-Tiledesk is multichannel in a totally new way. You can write your chatbot scripts with images, buttons and other cool elements that your channels support. But you will configureyour chatbot replies only once. They will run on every channel, auto-adapting the responses to the target channel whatever it is, Whatsapp, Facebook Messenger, Telegram etc.
+SyncYou is multichannel in a totally new way. You can write your chatbot scripts with images, buttons and other cool elements that your channels support. But you will configureyour chatbot replies only once. They will run on every channel, auto-adapting the responses to the target channel whatever it is, Whatsapp, Facebook Messenger, Telegram etc.
 
-# Tiledesk-dashboard
+# SyncYou-dashboard
 
 <img  width="1200"  alt="home_screenshot"  src="https://i0.wp.com/tiledesk.com/wp-content/uploads/2022/08/Tiledesk_Dashboard.png"  width="500">
 
 
-Tiledesk.com backoffice application is available on GitHub under MIT licence.
+SyncYou.com.br backoffice application is available on GitHub under MIT licence.
 
 
 Follow this instructions to setup the environment.
 
 
-Consider that Tiledesk.com cloud service makes every module available with the same open source licence.
+Consider that SyncYou.com.br cloud service makes every module available with the same open source licence.
 
 
 - Web Widget component
@@ -38,14 +38,14 @@ Consider that Tiledesk.com cloud service makes every module available with the s
 
 - full Android App
 
-- Tiledesk Dashboard (this repo)
+- SyncYou Dashboard (this repo)
 
 - All the chat components are available thanks to the Chat21 open source project, also available on GitHub (https://github.com/chat21)
 
   
 # Community? Questions? Support?
 
-- If you need help or just want to hang out, come, say hi on our [<img width="15" alt="Tiledesk discord" src="https://seeklogo.com/images/D/discord-color-logo-E5E6DFEF80-seeklogo.com.png"> Discord](https://discord.gg/nERZEZ7SmG) server.
+- If you need help or just want to hang out, come, say hi on our [<img width="15" alt="SyncYou discord" src="https://seeklogo.com/images/D/discord-color-logo-E5E6DFEF80-seeklogo.com.png"> Discord](https://discord.gg/nERZEZ7SmG) server.
 - You can also to ask for support on https://tiledesk.com, using the live chat widget on the the website.
 
   
@@ -74,12 +74,12 @@ And more.
 
 - Install angular-cli v7.3.10 with `npm install -g @angular/cli@14.2.9`
 
-- tiledesk-server installed and running (https://github.com/Tiledesk/tiledesk-server.git)
+- tiledesk-server installed and running (https://github.com/SyncYou/tiledesk-server.git)
 
-# Run Tiledesk with Docker Compose
+# Run SyncYou with Docker Compose
 
-Do you want to install all the Tiledesk components on your server with just one click?
-Use [Docker Compose Tiledesk installation guide](https://github.com/Tiledesk/tiledesk-deployment/blob/master/docker-compose/README.md)
+Do you want to install all the SyncYou components on your server with just one click?
+Use [Docker Compose SyncYou installation guide](https://github.com/SyncYou/tiledesk-deployment/blob/master/docker-compose/README.md)
 
 
 # Install from source code
@@ -88,7 +88,7 @@ Use [Docker Compose Tiledesk installation guide](https://github.com/Tiledesk/til
 
 Install the latest stable release. Check on Github page the last release under the Releases tab and then run
 
--  `git clone https://github.com/Tiledesk/tiledesk-dashboard.git --branch <LATEST-RELEASE-VERSION>`
+-  `git clone https://github.com/SyncYou/tiledesk-dashboard.git --branch <LATEST-RELEASE-VERSION>`
 
 -  `cd tiledesk-dashboard`
 
@@ -204,11 +204,11 @@ aws s3 sync ./dist/ s3://tiledesk-dashboard/dashboard
 # Run with docker
 
   
-To run Tiledesk-dashboard on port 4500 run:
+To run SyncYou-dashboard on port 4500 run:
 
 ```
 
-curl https://raw.githubusercontent.com/Tiledesk/tiledesk-dashboard/master/.env.sample --output .env
+curl https://raw.githubusercontent.com/SyncYou/tiledesk-dashboard/master/.env.sample --output .env
 
 nano .env #configure .env file properly
 
@@ -220,13 +220,13 @@ docker run -p 4500:80 --env-file .env tiledesk/tiledesk-dashboard
 # Run with npm
 
   
-To run Tiledesk-dashboard with npm:
+To run SyncYou-dashboard with npm:
 
 UNDER DEVELOPMENT
 
 ```
 
-curl https://raw.githubusercontent.com/Tiledesk/tiledesk-dashboard/master/.env.sample --output .env
+curl https://raw.githubusercontent.com/SyncYou/tiledesk-dashboard/master/.env.sample --output .env
 
 nano .env #configure .env file properly
 
@@ -344,7 +344,7 @@ You can run an embedded version of the dashboard inside an existing app using, f
 ```
 
 <!-- # Translation process
-The translation process for Tiledesk Dashboard is managed at [https://tiledesk.crowdin.com/tiledesk-dashboard](https://tiledesk.crowdin.com/tiledesk-dashboard) using Crowdin. Please read the [translation guide](https://support.crowdin.com/enterprise/getting-started-for-volunteers/) for contributing to Tiledesk. -->
+The translation process for SyncYou Dashboard is managed at [https://tiledesk.crowdin.com/tiledesk-dashboard](https://tiledesk.crowdin.com/tiledesk-dashboard) using Crowdin. Please read the [translation guide](https://support.crowdin.com/enterprise/getting-started-for-volunteers/) for contributing to SyncYou. -->
 
 
 

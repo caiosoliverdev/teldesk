@@ -42,7 +42,7 @@
     {
         "logo": "https://tiledesk.com/integrations-ios-tiledesk/",
         "title": "iOS SDK",
-        "description": "Tiledesk Widget for iOS",
+        "description": "SyncYou Widget for iOS",
         "learnmore": "https://developer.tiledesk.com/mobile-sdk/integrate-widget-for-ios-with-wkwebview",
         "installActionType": "external",
         "installActionURL": "https://developer.tiledesk.com/mobile-sdk/integrate-widget-for-ios-with-wkwebview"
@@ -50,7 +50,7 @@
     {
         "logo": "https://tiledesk.com/integrations-android-tiledesk/",
         "title": "Android SDK",
-        "description": "Tiledesk Widget for Android",
+        "description": "SyncYou Widget for Android",
         "learnmore": "https://developer.tiledesk.com/mobile-sdk/integrate-widget-for-android-with-webview",
         "installActionType": "external",
         "installActionURL": "https://developer.tiledesk.com/mobile-sdk/integrate-widget-for-android-with-webview"
@@ -58,15 +58,15 @@
     {
         "logo": "https://tiledesk.com/integrations-kubernetes-logo-without-workmark-svg/",
         "title": "Kubernetes",
-        "description": "Install Tiledesk on-premise with Kubernetes",
-        "learnmore": "https://github.com/Tiledesk/tiledesk-deployment",
+        "description": "Install SyncYou on-premise with Kubernetes",
+        "learnmore": "https://github.com/SyncYou/tiledesk-deployment",
         "installActionType": "external",
-        "installActionURL": "https://github.com/Tiledesk/tiledesk-deployment"
+        "installActionURL": "https://github.com/SyncYou/tiledesk-deployment"
     },
     {
         "logo": "https://tiledesk.com/integrations-docker-logo-without-workmark/",
         "title": "Docker",
-        "description": "Install Tiledesk on-premise with docker compose",
+        "description": "Install SyncYou on-premise with docker compose",
         "learnmore": "https://developer.tiledesk.com/installation/running-tiledesk-with-docker-compose",
         "installActionType": "external",
         "installActionURL": "https://developer.tiledesk.com/installation/running-tiledesk-with-docker-compose"
@@ -74,7 +74,7 @@
     {
         "logo": "https://tiledesk.com/github-logo/",
         "title": "GitHub",
-        "description": "Install Tiledesk from GitHub source code",
+        "description": "Install SyncYou from GitHub source code",
         "learnmore": "https://github.com/tiledesk",
         "installActionType": "external",
         "installActionURL": "https://github.com/tiledesk"
@@ -89,16 +89,16 @@
     },
     {
         "logo": "https://tiledesk.com/integrations-ios-tiledesk/",
-        "title": "Tiledesk iOS native app",
-        "description": "Tiledesk mobile app",
+        "title": "SyncYou iOS native app",
+        "description": "SyncYou mobile app",
         "learnmore": "https://apps.apple.com/us/app/tiledesk/id1401218793",
         "installActionType": "external",
         "installActionURL": "https://apps.apple.com/us/app/tiledesk/id1401218793"
     },
     {
         "logo": "https://tiledesk.com/integrations-android-tiledesk/",
-        "title": "Tiledesk Android native app",
-        "description": "Tiledesk mobile app",
+        "title": "SyncYou Android native app",
+        "description": "SyncYou mobile app",
         "learnmore": "https://play.google.com/store/apps/details?id=tiledesk.android",
         "installActionType": "external",
         "installActionURL": "https://play.google.com/store/apps/details?id=tiledesk.android"
@@ -122,7 +122,7 @@
     {
         "logo": "https://tiledesk.com/websocket-logo/",
         "title": "WebSocket",
-        "description": "Tiledesk Realtime API",
+        "description": "SyncYou Realtime API",
         "learnmore": "https://developer.tiledesk.com/apis/realtime-api",
         "installActionType": "external",
         "installActionURL": "https://developer.tiledesk.com/apis/realtime-api"

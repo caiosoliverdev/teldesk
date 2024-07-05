@@ -250,18 +250,18 @@ export class WsRequestsUnservedForPanelComponent extends WsSharedComponent imple
       if (event && event.data && event.data.action && event.data.calledBy) {
         if (event.data.action === "hidewidget" && event.data.calledBy === "unassigned-convs") {
           try {
-            if (window &&  window['Tiledesk'] ) {
+            if (window &&  window['SyncYou'] ) {
               this.logger.log('[WS-REQUESTS-UNSERVED-X-PANEL] - HIDE WIDGET - HERE 1')
               // setTimeout(() => {
-                // window['Tiledesk']('hide');
+                // window['SyncYou']('hide');
                 // window['tiledesk_widget_hide']();
               // }, 1500);
-              window['Tiledesk']('onLoadParams', (event_data) => {
+              window['SyncYou']('onLoadParams', (event_data) => {
                 this.logger.log("[WS-REQUESTS-UNSERVED-X-PANEL] onLoadParams Initialized!");
                
-                window['Tiledesk']('setParameter', { key: 'autoStart', value: false })
+                window['SyncYou']('setParameter', { key: 'autoStart', value: false })
                 window['tiledesk_widget_hide']();
-                this.logger.log('[WS-REQUESTS-UNSERVED-X-PANEL]  window[Tiledesk]' ,  window['Tiledesk'] )
+                this.logger.log('[WS-REQUESTS-UNSERVED-X-PANEL]  window[SyncYou]' ,  window['SyncYou'] )
                 // customAuth((token) => {
                 //     if (token) {
                 //         window.tiledesk.signInWithCustomToken(token);

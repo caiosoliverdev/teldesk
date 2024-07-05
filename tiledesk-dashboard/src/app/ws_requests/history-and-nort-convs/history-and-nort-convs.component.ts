@@ -962,8 +962,8 @@ export class HistoryAndNortConvsComponent extends WsSharedComponent implements O
   //   const url = this.CHAT_BASE_URL + '#/conversation-detail/' + requestid + "/" + requester_fullanme + "/active"
   //   window.open(url, '_blank');
 
-  //   // this.openWindow('Tiledesk - Open Source Live Chat', url)
-  //   // this.focusWin('Tiledesk - Open Source Live Chat')
+  //   // this.openWindow('SyncYou - Open Source Live Chat', url)
+  //   // this.focusWin('SyncYou - Open Source Live Chat')
   // }
 
   // openWindow(winName: any, winURL: any) {

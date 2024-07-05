@@ -20,16 +20,16 @@ export class BrandService {
 
   _brand = {
     DASHBOARD: {
-      META_TITLE: "Tiledesk Design Studio",
+      META_TITLE: "SyncYou Design Studio",
       // FAVICON_URL: "https://tiledesk.com/wp-content/uploads/2022/07/tiledesk_v13-300x300.png",
       FAVICON_URL: "assets/img/logos/favicon.ico",
       CUSTOM_COMPANY_HOME_LOGO: false,
       COMPANY_LOGO_PLANET: "assets/img/logos/tiledesk_planet.svg",
       "privacy_policy_link_text": "Privacy Policy",
-      "privacy_policy_url": "https://www.tiledesk.com/privacy.html",
+      "privacy_policy_url": "https://syncyou.com.br/privacy.html",
       "display_terms_and_conditions_link": true,
-      "terms_and_conditions_url": "https://www.tiledesk.com/termsofservice.html",
-      "contact_us_email": "support@tiledesk.com",
+      "terms_and_conditions_url": "https://syncyou.com.br/termsofservice.html",
+      "contact_us_email": "contato@syncyou.com.br",
       "display-news-and-documentation": true,
       "display_google_auth_btn": true,
       "display_help_in_installation": true,
@@ -42,22 +42,22 @@ export class BrandService {
       "display_change_pwd": true,
       "EXTREME_MEASURES": true,
       // "widget_logo_URL":"https://tiledesk.com/tiledesk-logo-white.png",
-      // "widget_default_footer" :"<a tabindex='-1' target='_blank href='http://www.tiledesk.com/?utm_source=widget'><img src='https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg'/><span> Powered by Tiledesk</span></a>",
+      // "widget_default_footer" :"<a tabindex='-1' target='_blank href='http://www.tiledesk.com/?utm_source=widget'><img src='https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg'/><span> Powered by SyncYou</span></a>",
       // "widget_launcher_button_placeholder": "assets/img/logos/custom-launcher-button-placeholder_v2.svg",
       "footer": {
         "display_terms_and_conditions_link": true,
         "display_star_us_on_github": true,
         "display_leave_us_a_feedback": true,
         "display_followus_on_x": true,
-        "followus_on_x_URL": "https://twitter.com/tiledesk",
+        "followus_on_x_URL": "https://twitter.com/syncyou",
         "display_followus_on_fb": true,
-        "followus_on_fb_URL": "https://www.facebook.com/tiledesk",
+        "followus_on_fb_URL": "https://www.facebook.com/syncyou",
         "display_followus_on_in": true,
-        "followus_on_in_URL": "https://www.linkedin.com/company/tiledesk",
+        "followus_on_in_URL": "https://www.linkedin.com/company/syncyou",
         "display_followus_on_instagram": true,
-        "followus_on_instagram_URL": "https://www.instagram.com/tiledesk/",
+        "followus_on_instagram_URL": "https://www.instagram.com/syncyou/",
         "display_followus_on_youtube": true,
-        "followus_on_youtube_URL": "https://www.youtube.com/@tiledesk"
+        "followus_on_youtube_URL": "https://www.youtube.com/@syncyou"
       },
       "recent_project_page": {
         "company_logo_width": "130px",
@@ -73,7 +73,7 @@ export class BrandService {
     },
     WIDGET: {
       "LOGO_CHAT": "https://tiledesk.com/tiledesk-logo-white.png",
-      "POWERED_BY": "<a tabindex='-1' target='_blank href='http://www.tiledesk.com/?utm_source=widget'><img src='https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg'/><span> Powered by Tiledesk</span></a>"
+      "POWERED_BY": "<a tabindex='-1' target='_blank href='http://www.tiledesk.com/?utm_source=widget'><img src='https://panel.tiledesk.com/v3/dashboard/assets/img/logos/tiledesk-solo_logo_new_gray.svg'/><span> Powered by SyncYou</span></a>"
     },
     CHAT: {
 
@@ -87,12 +87,12 @@ export class BrandService {
       ]
     },
     COMMON: {
-      COMPANY_LOGO: "assets/img/logos/tiledesk_logo.svg",
-      COMPANY_LOGO_NO_TEXT: "assets/img/logos/tiledesk_logo_no_text.svg",
-      BASE_LOGO: "assets/img/logos/tiledesk_logo.svg",
-      BASE_LOGO_NO_TEXT: "assets/img/logos/tiledesk_logo_no_text.svg",
-      COMPANY_NAME: "Tiledesk",
-      BRAND_NAME: "Tiledesk",
+      COMPANY_LOGO: "assets/img/logos/tiledesk_logo.png",
+      COMPANY_LOGO_NO_TEXT: "assets/img/logos/tiledesk_logo_no_text.png",
+      BASE_LOGO: "assets/img/logos/tiledesk_logo.png",
+      BASE_LOGO_NO_TEXT: "assets/img/logos/tiledesk_logo_no_text.png",
+      COMPANY_NAME: "SyncYou",
+      BRAND_NAME: "SyncYou",
       COMPANY_SITE_NAME: "tiledesk.com",
       COMPANY_SITE_URL: "https://www.tiledesk.com",
       CONTACT_US_EMAIL: "support@tiledesk.com",

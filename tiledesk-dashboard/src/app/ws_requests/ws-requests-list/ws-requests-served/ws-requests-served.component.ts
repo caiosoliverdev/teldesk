@@ -786,13 +786,13 @@ export class WsRequestsServedComponent extends WsSharedComponent implements OnIn
   //   if (chatTabCount && +chatTabCount > 0) {
   //     this.logger.log('[WS-REQUESTS-LIST][SERVED] openChatInNewWindow chatTabCount > 0 - FOCUS')
   //     url = this.CHAT_BASE_URL + '#/conversation-detail?convselected=' + requestid
-  //     // this.focusWin('Tiledesk - Open Source Live Chat')
-  //     this.openWindow('Tiledesk - Open Source Live Chat', url)
+  //     // this.focusWin('SyncYou - Open Source Live Chat')
+  //     this.openWindow('SyncYou - Open Source Live Chat', url)
 
   //   } else  if (chatTabCount && +chatTabCount === 0) {
   //     url = this.CHAT_BASE_URL + '#/conversation-detail/' + requestid + "/" + requester_fullanme + "/active"
   //     // window.open(url, '_blank');
-  //     this.openWindow('Tiledesk - Open Source Live Chat', url)
+  //     this.openWindow('SyncYou - Open Source Live Chat', url)
   //   }
 
   //   // let url = '';
@@ -806,8 +806,8 @@ export class WsRequestsServedComponent extends WsSharedComponent implements OnIn
   //   // const url = this.CHAT_BASE_URL + '#/conversation-detail/' + requestid + "/" + requester_fullanme + "/active"
 
 
-  //   // this.openWindow('Tiledesk - Open Source Live Chat', url)
-  //   // this.focusWin('Tiledesk - Open Source Live Chat')
+  //   // this.openWindow('SyncYou - Open Source Live Chat', url)
+  //   // this.focusWin('SyncYou - Open Source Live Chat')
   // }
 
   // openWindow(winName: any, winURL: any) {
