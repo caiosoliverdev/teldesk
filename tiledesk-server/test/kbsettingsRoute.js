@@ -515,7 +515,7 @@ describe('KbSettingsRoute', () => {
         //             chai.request(server)
         //                 .post('/' + savedProject._id + "/kbsettings/qa")
         //                 .auth(email, pwd)
-        //                 .send({ question: "How to connect Tiledesk with Telegram?", kbid: "https://gethelp.tiledesk.com/", gptkey: "valid-key" })
+        //                 .send({ question: "How to connect SyncYou with Telegram?", kbid: "https://gethelp.tiledesk.com/", gptkey: "valid-key" })
         //                 .end((err, res) => {
         //                     if (log) {}
         //                     console.log("qa res.body: ", res.body);

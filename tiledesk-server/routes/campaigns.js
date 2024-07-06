@@ -61,7 +61,7 @@ router.post('/', function (req, res) {
 Invio di una campagna (il bot invia a tutti i membri del gruppo News dei messaggi direct)
 E' l'equivalente del bot "Telegram" che viene usato per aggiornare gli utenti delle ultime funzionalità. E' indicato per inviare news unidirezionali
 
-curl -v -X POST -H 'Content-Type:application/json' -u XYZ:XYZ -d '{"text":"Tiledesk new feature. See here https://tiledesk.com", "group_id":"XYZ"}' https://api.tiledesk.com/v2/XYZ/campaigns/direct
+curl -v -X POST -H 'Content-Type:application/json' -u XYZ:XYZ -d '{"text":"SyncYou new feature. See here https://tiledesk.com", "group_id":"XYZ"}' https://api.tiledesk.com/v2/XYZ/campaigns/direct
 
 Specifica nel campo text il messaggio.
 */

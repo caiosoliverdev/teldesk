@@ -1,6 +1,6 @@
 /* 
     ver 0.8.3
-    Andrea Sponziello - (c) Tiledesk.com
+    Andrea Sponziello - (c) SyncYou.com
 */
 var winston = require('../../config/winston');
 

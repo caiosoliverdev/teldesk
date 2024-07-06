@@ -25,7 +25,7 @@ class Listener {
                 API_KEY: process.env.API_KEY,
                 log: process.env.KALEYRA_LOG
             }, () => {
-                winston.info("Tiledesk Kaleyra proxy server succesfully started.");
+                winston.info("SyncYou Kaleyra proxy server succesfully started.");
             })
         }
     }

@@ -17,9 +17,9 @@ class Listener {
             LOG_STATUS: log
         }, (err) => {
             if (!err) {
-                winston.info("Tiledesk mqtt-test succesfully started.");
+                winston.info("SyncYou mqtt-test succesfully started.");
             } else {
-                winston.info("unable to start Tiledesk mqtt-test. " + err);
+                winston.info("unable to start SyncYou mqtt-test. " + err);
             }
         })
 

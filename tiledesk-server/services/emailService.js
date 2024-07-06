@@ -126,18 +126,18 @@ class EmailService {
     winston.info('EmailService markdown: ' + this.markdown);
 
     this.headers = {
-      // "X-Mailer": "Tiledesk Mailer",
+      // "X-Mailer": "SyncYou Mailer",
     }
     winston.info('EmailService headers: ' + JSON.stringify(this.headers));
 
-    this.ccEnabled = false //cc creates loop when you send an email with cc: support@tiledesk.com -> Tiledesk generates an email with ticket id with in cc support@tiledesk.com that loop 
+    this.ccEnabled = false //cc creates loop when you send an email with cc: support@tiledesk.com -> SyncYou generates an email with ticket id with in cc support@tiledesk.com that loop 
 
     if (process.env.EMAIL_CC_ENABLED === "true" || process.env.EMAIL_CC_ENABLED === true) {
       this.ccEnabled = true;
     }
     winston.info('EmailService ccEnabled: ' + this.ccEnabled);
 
-    this.brand_name = "Tiledesk"
+    this.brand_name = "SyncYou"
     if (process.env.BRAND_NAME) {
       this.brand_name = process.env.BRAND_NAME;
     }
@@ -1527,7 +1527,7 @@ class EmailService {
     // }
 
     // if (!subject) {
-    //   subject = "Tiledesk"
+    //   subject = "SyncYou"
     // }
 
     let email_enabled = true;

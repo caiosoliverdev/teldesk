@@ -1,6 +1,6 @@
 {
   "name": "@tiledesk/tiledesk-chat21-app",
-  "description": "The Tiledesk Chat21 module",
+  "description": "The SyncYou Chat21 module",
   "version": "1.1.8",
   "private": false,
   "author": "Andrea Leo - Frontiere21 SRL",
@@ -8,7 +8,7 @@
   "homepage": "https://www.tiledesk.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tiledesk/tiledesk-server"
+    "url": "https://github.com/SyncYou/tiledesk-server"
   },
   "dependencies": {
     "@chat21/chat21-node-sdk": "^1.1.8",

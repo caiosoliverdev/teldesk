@@ -55,7 +55,7 @@ var printer = new PdfPrinter(fonts);
         return res.status(404).send({success: false, msg: 'Object not found.'});
       }
 
-      return res.render('messages', { title: 'Tiledesk', messages: messages});
+      return res.render('messages', { title: 'SyncYou', messages: messages});
     });
 
   });
@@ -206,7 +206,7 @@ var printer = new PdfPrinter(fonts);
         return res.status(404).send({success: false, msg: 'Object not found.'});
       }
 
-      return res.render('messages', { title: 'Tiledesk', messages: messages});
+      return res.render('messages', { title: 'SyncYou', messages: messages});
     });
 
   });

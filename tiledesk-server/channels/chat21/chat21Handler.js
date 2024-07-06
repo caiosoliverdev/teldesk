@@ -79,7 +79,7 @@ class Chat21Handler {
         
 
         if (process.env.SYNC_CHAT21_GROUPS !=="true") {
-            winston.info("Sync Tiledesk to Chat21 groups disabled");
+            winston.info("Sync SyncYou to Chat21 groups disabled");
             // return; questo distrugge il tread. attento non lo mettere +
         }
 
@@ -274,7 +274,7 @@ class Chat21Handler {
                     message.status === MessageConstants.CHAT_MESSAGE_STATUS.SENDING &&
                     message.channel_type ==  MessageConstants.CHANNEL_TYPE.GROUP &&
                     message.request && 
-                    message.request.channelOutbound.name == ChannelConstants.CHAT21) { //here only request.channelOutbound is important because chat21handler is for outgoing messages( from Tiledesk to agents clients)
+                    message.request.channelOutbound.name == ChannelConstants.CHAT21) { //here only request.channelOutbound is important because chat21handler is for outgoing messages( from SyncYou to agents clients)
 
                     
                         chat21.auth.setAdminToken(adminToken);
@@ -906,7 +906,7 @@ class Chat21Handler {
             groupEvent.on('group.create',  function(group) {                       
 
                 if (process.env.SYNC_CHAT21_GROUPS !=="true") {
-                    winston.debug("Sync Tiledesk to Chat21 groups disabled");
+                    winston.debug("Sync SyncYou to Chat21 groups disabled");
                     return;
                 }
 
@@ -941,7 +941,7 @@ class Chat21Handler {
              groupEvent.on('group.update',  function(group) {                       
 
                 if (process.env.SYNC_CHAT21_GROUPS !=="true") {
-                    winston.debug("Sync Tiledesk to Chat21 groups disabled");
+                    winston.debug("Sync SyncYou to Chat21 groups disabled");
                     return;
                 }
 
@@ -985,7 +985,7 @@ class Chat21Handler {
              groupEvent.on('group.delete',  function(group) {                       
 
                 if (process.env.SYNC_CHAT21_GROUPS !=="true") {
-                    winston.debug("Sync Tiledesk to Chat21 groups disabled");
+                    winston.debug("Sync SyncYou to Chat21 groups disabled");
                     return;
                 }
 

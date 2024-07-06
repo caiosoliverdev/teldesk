@@ -92,7 +92,7 @@ class FaqService {
 
           // { 'question': 'Sample Webhook', 'answer': 'tdWebhook:https://tiledesk-bot-webhook.tiledesk.repl.co', 'topic': 'sample' },    
           { 'question': 'Sample Action', 'answer': 'Hello 👋 Would you like to take a closer look at our offer?\n* Yes, please tdAction:yes_action\n* No tdAction:no_action', 'intent_display_name': 'action1', 'topic': 'sample' },
-          { 'question': 'Yes Action', 'answer': 'Great! Take a look here:\n* Tiledesk Pricing https://tiledesk.com/pricing-cloud/', 'intent_display_name': 'yes_action', 'topic': 'sample' },
+          { 'question': 'Yes Action', 'answer': 'Great! Take a look here:\n* SyncYou Pricing https://tiledesk.com/pricing-cloud/', 'intent_display_name': 'yes_action', 'topic': 'sample' },
           { 'question': 'No Action', 'answer': 'All right! If you need anything, let us know.', 'intent_display_name': 'no_action', 'topic': 'sample' },
 
 

@@ -30,7 +30,7 @@ class Listener {
             MONGODB_URI: process.env.APPS_MONGODB_URI || config.databaseUri,
             KALEYRA_ENABLED: process.env.KALEYRA_ENABLED || config.kaleyra_enabled
         }, () => {
-            winston.info("Tiledesk Apps proxy server succesfully started.")
+            winston.info("SyncYou Apps proxy server succesfully started.")
         })
 
     }

@@ -18,7 +18,7 @@ class Listener {
             if (!err) {
                 winston.info("Chatbot Templates proxy server successfully started.");
             } else {
-                winston.info("unable to start Tiledesk Chatbot Templates." + err);
+                winston.info("unable to start SyncYou Chatbot Templates." + err);
             }
         })
     }

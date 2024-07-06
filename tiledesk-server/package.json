@@ -1,6 +1,6 @@
 {
   "name": "@tiledesk/tiledesk-server",
-  "description": "The Tiledesk server module",
+  "description": "The SyncYou server module",
   "version": "2.8.6",
   "scripts": {
     "start": "node ./bin/www",
@@ -14,12 +14,12 @@
     "enable-ent": "echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc"
   },
   "private": false,
-  "author": "Andrea Leo - Tiledesk SRL",
+  "author": "Andrea Leo - SyncYou SRL",
   "license": "AGPL-3.0",
   "homepage": "https://www.tiledesk.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tiledesk/tiledesk-server.git"
+    "url": "git+https://github.com/SyncYou/tiledesk-server.git"
   },
   "engines": {
     "node": "16.17.0",
@@ -125,7 +125,7 @@
     "nodemon": "^2.0.16"
   },
   "bugs": {
-    "url": "https://github.com/Tiledesk/tiledesk-server/issues"
+    "url": "https://github.com/SyncYou/tiledesk-server/issues"
   },
   "main": "./bin/www",
   "directories": {

@@ -338,7 +338,7 @@ router.post('/', function (req, res) {
       
       // curl -X POST -H 'Content-Type:application/json'  -d '{ "event_type": "deleted-conversation", "createdAt": 1537973334802, "app_id": "tilechat", "user_id": "system", "recipient_id": "support-group-LNPQ57JnotOEEwDXr9b"}' http://localhost:3000/chat21/requests
                                                                                          // depreated
-// this is a deprecated method for closing request. In the past used by chat21 cloud function support api /close method called by old versions of ionic. The new version of the ionic (both for firebase and mqtt) chat call Tiledesk DELETE /requests/:req_id endpoint so  this will not be used                                                                                        
+// this is a deprecated method for closing request. In the past used by chat21 cloud function support api /close method called by old versions of ionic. The new version of the ionic (both for firebase and mqtt) chat call SyncYou DELETE /requests/:req_id endpoint so  this will not be used                                                                                        
     } else if (req.body.event_type == "conversation-archived" || req.body.event_type == "deleted-conversation" ) {
       winston.debug("event_type deleted-conversation");
 

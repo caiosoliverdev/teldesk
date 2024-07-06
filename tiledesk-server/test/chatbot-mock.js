@@ -4,7 +4,7 @@ const existing_chatbot_mock = {
     type: "tilebot",
     secret: "a3577185-a8bf-4547-a000-6ba81ccb0460",
     language: "en",
-    description: "A Tiledesk bot",
+    description: "A SyncYou bot",
     id_project: "63234fd6c69f188814749e15",
     trashed: false,
     createdBy: "system",

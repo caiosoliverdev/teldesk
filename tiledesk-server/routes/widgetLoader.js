@@ -30,7 +30,7 @@ router.get('/v5/:project_id', function(req, res) {
     };
     (function(d, s, id) { 
         var w=window; var d=document; var i=function(){i.c(arguments);};
-        i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;                    
+        i.q=[]; i.c=function(args){i.q.push(args);}; w.SyncYou=i;                    
         var js, fjs=d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js=d.createElement(s); 

@@ -42,9 +42,9 @@ class Listener {
             log: log
         }, (err) => {
             if (!err) {
-                winston.info("Tiledesk Telegram Connector proxy server successfully started");
+                winston.info("SyncYou Telegram Connector proxy server successfully started");
             } else {
-                winston.info("unable to start Tiledesk Telegram Connector. " + err);
+                winston.info("unable to start SyncYou Telegram Connector. " + err);
             }
         })
     }

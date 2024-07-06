@@ -1,6 +1,6 @@
 # Upgrading
 
-Use this procedure to upgrade from a previous version of Tiledesk server. You must manually execute the following upgrades depending on the starting version:
+Use this procedure to upgrade from a previous version of SyncYou server. You must manually execute the following upgrades depending on the starting version:
 
 # From the 2.0.7 version the schema updates are automatically managed by migrations
 

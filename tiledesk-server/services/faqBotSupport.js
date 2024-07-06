@@ -49,7 +49,7 @@ class FaqBotSupport {
         return label;
      
     }
-// usa api di sponziello parseReply: https://github.com/Tiledesk/tiledesk-nodejs-libs/blob/master/tiledesk-chatbot-util/index.js 
+// usa api di sponziello parseReply: https://github.com/SyncYou/tiledesk-nodejs-libs/blob/master/tiledesk-chatbot-util/index.js 
 
     parseMicrolanguage(text, message, bot, faq, disableWebHook, json) { 
         var that = this;

@@ -1177,7 +1177,7 @@ Internal users such as agents, light agents, and administrators can be followers
 - Added alias /bots for /faq_kb
 
 # 2.2.14
-- Fix Tiledesk Queue 1.1.11 with authEvent.queueEnabled = true 
+- Fix SyncYou Queue 1.1.11 with authEvent.queueEnabled = true 
 
 # 2.2.13
 - Send message validation with empty text
@@ -1264,7 +1264,7 @@ Internal users such as agents, light agents, and administrators can be followers
 - Added request priority field
 - Concierge bot fix to reroute only for temp conversation without a bot. Race condition issue when you try manually route a request for example inside a chatbot webhook (Also in 2.1.40.31)
 - Added webhook_enabled parameter to the faqService create method and test refactor
-- Added SYNC_JOIN_LEAVE_GROUP_EVENT environment variable to enable sync between Chat21 (join and leave) and Tiledesk. Default is false. (Also in 2.1.40.32 )
+- Added SYNC_JOIN_LEAVE_GROUP_EVENT environment variable to enable sync between Chat21 (join and leave) and SyncYou. Default is false. (Also in 2.1.40.32 )
 - Added ALLOW_REOPEN_CHAT environment variable to reopen a chat if a user write after a chat is closed  
 - Used message.received instead message.create in the messageActionsInterceptor to fix race condition sometime occurs with \close message sent by the bot      
 - Please type your reply above this line Only if replyTo is specified
@@ -1273,7 +1273,7 @@ Internal users such as agents, light agents, and administrators can be followers
 
 ## Email inbound
 - EmailService supports custom email config with custom SMTP server settings and custom from email
-- Added Tiledesk customer header in the outbound email
+- Added SyncYou customer header in the outbound email
 - Added Message-ID and sender (message sender fullname) on the outbound email 
 - Added project object to sendRequestTranscript function
 - Welcome label fix key
@@ -1300,7 +1300,7 @@ Internal users such as agents, light agents, and administrators can be followers
 - Added setTimeout to resolve race condition for \close event returned by bot 
 
 # 2.1.40.32
-- Added SYNC_JOIN_LEAVE_GROUP_EVENT environment variable to enable sync between Chat21 (join and leave) and Tiledesk. Default is false. 
+- Added SYNC_JOIN_LEAVE_GROUP_EVENT environment variable to enable sync between Chat21 (join and leave) and SyncYou. Default is false. 
 
 # 2.1.40.31
 - Concierge bot fix to reroute only for temp conversation without a bot. Race condition issue when you try manually route a request for example inside a chatbot webhook 
@@ -1589,7 +1589,7 @@ Added email notification setting for each teammate (also in 2.1.14.3)
 - Logfix
 
 # 2.1.10
-- Tiledesk Chat21 groups syncronizer. Enable with SYNC_CHAT21_GROUPS="true"
+- SyncYou Chat21 groups syncronizer. Enable with SYNC_CHAT21_GROUPS="true"
 - Built-in faq updated  and chatbot webhook example changed
 - Return role: admin if the admin sign-in with email and password
 - Default fallback event emitting

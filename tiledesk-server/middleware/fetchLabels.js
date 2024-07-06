@@ -18,11 +18,11 @@ module.exports = function (req, res, next) {
     }
     winston.debug('label fetched', data);
 
-    // Replace {{ BRAND_NAME }} with process.env.BRAND_NAME value (default value "Tiledesk")
+    // Replace {{ BRAND_NAME }} with process.env.BRAND_NAME value (default value "SyncYou")
     let brand_name = process.env.BRAND_NAME;
 
     if (brand_name) {
-      data = data.replaceAll("Tiledesk", brand_name);
+      data = data.replaceAll("SyncYou", brand_name);
       data = data.replaceAll("tiledesk", brand_name.toLowerCase());
 
     }

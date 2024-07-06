@@ -61,9 +61,9 @@ class Listener {
             log: log
         }, (err) => {
             if (!err) {
-                winston.info("Tiledesk Messenger Connector proxy server succesfully started.");
+                winston.info("SyncYou Messenger Connector proxy server succesfully started.");
             } else {
-                winston.info("unable to start Tiledesk Whatsapp Connector. " + err);
+                winston.info("unable to start SyncYou Whatsapp Connector. " + err);
             }
         })
 
